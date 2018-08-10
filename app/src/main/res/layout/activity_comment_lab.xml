@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background">
+
+    <RadioGroup
+        android:id="@+id/comment_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:checkedButton="@+id/comment_all"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/comment_all"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/tag_selector2"
+            android:button="@null"
+            android:gravity="center"
+            android:text="全部"
+            android:textColor="@drawable/text_color_selector2"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/comment_good"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/tag_selector2"
+            android:button="@null"
+            android:gravity="center"
+            android:text="好评"
+            android:textColor="@drawable/text_color_selector2"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/comment_medium"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/tag_selector2"
+            android:button="@null"
+            android:gravity="center"
+            android:text="中评"
+            android:textColor="@drawable/text_color_selector2"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/comment_poor"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/tag_selector2"
+            android:button="@null"
+            android:gravity="center"
+            android:text="差评"
+            android:textColor="@drawable/text_color_selector2"
+            android:textSize="15sp"/>
+
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/comments_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

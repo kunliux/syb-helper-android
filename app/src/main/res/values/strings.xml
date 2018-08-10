@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">手语帮服务版</string>
+
+    <!--默认信息-->
+    <string name="default_username">用户甲</string>
+
+    <!--标题-->
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">服务</string>
+    <string name="title_notifications">通知</string>
+    <string name="title_user">我</string>
+    <string name="title_staff_list">客服列表</string>
+    <string name="title_task_list">离线手语服务</string>
+    <string name="title_video_management">视频管理</string>
+    <string name="title_settings">设置</string>
+    <string name="title_feedback">意见反馈</string>
+    <string name="title_profile_info">个人资料</string>
+    <string name="title_comment_management">评论管理</string>
+    <string name="title_save_changes">保存修改</string>
+
+    <!--按钮-->
+    <string name="action_online">在线手语服务</string>
+    <string name="action_offline">离线手语服务</string>
+    <string name="action_archive_task">我的回复</string>
+
+    <!--运行时授权-->
+    <string name="ok">确定</string>
+    <string name="permission_camera_rationale">调用摄像头需要授权</string>
+    <string name="permission_available_camera">摄像头授权成功</string>
+    <string name="permission_record_audio_rationale">启用录音需要授权</string>
+    <string name="permission_available_record_audio">录音授权成功</string>
+    <string name="permission_external_storage_rationale">读写存储需要授权</string>
+    <string name="permission_available_external_storage">读写存储授权成功</string>
+    <string name="permission_not_granted">未授权成功</string>
+    <string name="permissions_not_granted">您没有开启相机权限或者录音权限</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">此致敬礼</string>
+
+    <string name="comment_encourage_hint">如果您觉得我的服务很好，请送我颗爱心鼓励我吧，我将更好的为您服务，感谢您的支持。</string>
+    <string name="detail_text">快来解答吧！</string>
+
+    <string name="tip_no_permission">权限不足</string>
+
+    <string name="btn_take_photo">相机</string>
+    <string name="btn_pic_photo">相册</string>
+    <string name="btn_return_home">返回首页</string>
+    <string name="btn_return">返回</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_refuse">拒绝</string>
+    <string name="btn_agree">同意</string>
+    <string name="btn_sure">确定</string>
+    <string name="btn_close">关闭</string>
+
+</resources>

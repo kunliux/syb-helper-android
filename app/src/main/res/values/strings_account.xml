@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings related to login -->
+    <string name="prompt_phone">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_out">退出</string>
+    <string name="link_sign_up">没有账号? 立即注册</string>
+    <string name="invalid_phone">手机号无效</string>
+    <string name="invalid_password">密码太短</string>
+    <string name="incorrect_password">密码不正确</string>
+    <string name="field_required">必填</string>
+    <string name="action_sign_up">注册</string>
+    <string name="link_sign_in">已有账号? 登录</string>
+
+    <string name="error_invalid_password">密码至少6个字符</string>
+    <string name="error_invalid_phone">请填写有效的11位手机号码</string>
+</resources>

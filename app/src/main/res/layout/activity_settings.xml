@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/background_gray1"/>
+
+
+    <TextView
+        android:id="@+id/feedback_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:clickable="true"
+        android:background="@drawable/btn_list_item_bg"
+        android:text="意见反馈"
+        android:textColor="@color/black"
+        android:drawableEnd="@mipmap/arrow_right"
+        android:drawableRight="@mipmap/arrow_right"
+        android:textSize="15dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/background_gray1"/>
+
+    <TextView
+        android:id="@+id/about_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_list_item_bg"
+        android:drawableEnd="@mipmap/arrow_right"
+        android:drawableRight="@mipmap/arrow_right"
+        android:padding="12dp"
+        android:text="关于我们"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:text="退出登录"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"/>
+
+
+</LinearLayout>

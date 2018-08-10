@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            app:riv_corner_radius="5dp"
+            app:riv_border_width="2dp"
+            app:riv_border_color="@color/material_white"
+            app:riv_mutate_background="true"
+            app:riv_tile_mode="repeat"
+            app:riv_oval="false"
+            android:id="@+id/video_cover"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="center"
+            android:src="@mipmap/default_cover" />
+
+        <ImageButton
+            android:id="@+id/list_item_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:src="@drawable/video_click_play_selector"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/video_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:maxLines="1"
+        android:text="手语视频"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryText"/>
+
+</LinearLayout>

@@ -1,2 +1,2 @@
-# syb-helper-android
-手语帮Android翻译端
+# SYBangshou_Android
+手语帮服务版
